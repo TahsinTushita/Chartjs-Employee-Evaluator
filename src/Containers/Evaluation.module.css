@@ -1,0 +1,29 @@
+.Input {
+  display: block;
+  margin-bottom: 50px;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.BlockDiv {
+  display: block;
+  margin-top: 50px;
+}
+
+.InlineInput {
+  margin-bottom: 50px;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.Invalid {
+  border: 1px solid red;
+  background-color: rgb(255, 229, 226);
+  margin-bottom: 50px;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
