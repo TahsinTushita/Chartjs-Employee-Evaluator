@@ -10,7 +10,7 @@ import reducer from "./store/reducer";
 import thunk from "redux-thunk";
 import config from "./config";
 
-Axios.defaults.baseURL = "https://chart-app-a6ef4.firebaseio.com";
+Axios.defaults.baseURL = "YOUR_FIREBASE_URL";
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
