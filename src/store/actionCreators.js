@@ -14,7 +14,7 @@ export const auth = (employee) => {
     dispatch(loadingStart());
 
     Axios.post(
-      "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=[API-KEY]",
+      "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyAs69ZweFbMNtwKnHrykiMD4pUGe-IyY5E",
       employee
     )
       .then((response) => {
@@ -159,7 +159,7 @@ export const addEmployee = (employee, dbEmployee) => {
     dispatch(loadingStart());
 
     Axios.post(
-      "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=[API-KEY]",
+      "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyAs69ZweFbMNtwKnHrykiMD4pUGe-IyY5E",
       employee
     )
       .then((response) => {
@@ -273,7 +273,7 @@ export const changePassword = (employee) => {
   return (dispatch) => {
     dispatch(setSpinnerLoader(1));
     Axios.post(
-      "https://identitytoolkit.googleapis.com/v1/accounts:update?key=[API-KEY]",
+      "https://identitytoolkit.googleapis.com/v1/accounts:update?key=AIzaSyAs69ZweFbMNtwKnHrykiMD4pUGe-IyY5E",
       employee
     )
       .then((response) => {
